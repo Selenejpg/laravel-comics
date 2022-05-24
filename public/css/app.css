@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -12,23 +21,28 @@ header {
   align-items: center;
 }
 
-.logo {
-  width: 6%;
-}
-
-.nav-ul {
+header ul {
   display: flex;
   align-items: center;
 }
 
-.nav-li {
+header li {
   margin-right: 25px;
-  list-style-type: none;
 }
 
-.nav-a {
-  text-decoration: none;
+header a {
   color: black;
+}
+
+.logo {
+  width: 6%;
+}
+
+.bg-image {
+  background: url("/images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
 }
 
 main {
@@ -38,6 +52,7 @@ main {
 
 main h1 {
   font-size: 12px;
+  margin-left: 20px;
 }
 
 .products {
@@ -77,6 +92,8 @@ main h1 {
   color: white;
   background-color: #0282f9;
   padding: 10px;
+  margin-top: -50px;
+  z-index: 1;
 }
 
 .jumbo {
@@ -104,15 +121,13 @@ main h1 {
   font-size: 12px;
 }
 
-.ul-barrablu {
+main ul {
   display: flex;
   justify-content: center;
-  list-style-type: none;
 }
 
-.li-barrablu {
+main li {
   display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 12px;
 }
@@ -137,7 +152,7 @@ footer {
   width: 100%;
   height: 400px;
   margin: auto;
-  background-image: url(/public/img/footer-bg.jpg);
+  background: url("/images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 13px;
@@ -149,7 +164,6 @@ footer .col {
 }
 
 footer .style-type {
-  list-style-type: none;
   text-align: left;
 }
 
@@ -157,10 +171,11 @@ footer h1 {
   color: white;
   text-align: left;
   font-size: 13px;
+  margin-bottom: 10px;
 }
 
 footer .mega-logo {
-  width: 40%;
+  width: 400px;
 }
 
 footer .padding {
@@ -168,51 +183,53 @@ footer .padding {
 }
 
 .all {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  width: 100%;
   background-color: #303030;
   color: white;
+  padding: 30px;
+}
+
+.all ul {
+  display: flex;
+}
+
+.all li {
+  width: 6%;
+  margin-left: 30px;
+}
+
+.all h1 {
+  color: #0282f9;
+}
+
+.all h2 {
+  margin-left: 16px;
 }
 
 .flex-due {
   display: flex;
-  justify-content: space-evenly;
-  padding-left: 20%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.ul-footer-due {
-  list-style-type: none;
-  display: flex;
-}
-
-.li-footer-due {
-  width: 6%;
-  margin-right: 10px;
+  justify-content: space-between;
+  padding-left: 130px;
+  padding-right: 40px;
 }
 
 .flex-li {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .font-size {
   font-size: 10px;
 }
 
-.followus {
-  width: 40%;
-  margin-left: 45%;
-}
-
 .button-1 {
   border: 1px solid #0282f9;
   width: 14%;
   font-size: 10px;
-  text-align: center;
   padding: 10px;
+}
+
+.marginicons {
+  margin-left: 10px;
 }
 

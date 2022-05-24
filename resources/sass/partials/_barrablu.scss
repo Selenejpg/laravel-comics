@@ -1,14 +1,13 @@
-.ul-barrablu {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.li-barrablu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
+main {
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+    li {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
 }
 
 .icon {

@@ -13,23 +13,27 @@
             <img src="{{asset('images/dc-logo.png')}}" alt="">
         </div>
         <div>
-            <ul class"nav-ul">
-                <li class"nav-li"><a class"nav-a" href="url('/')">CHARACTERS</a></li>
-                <li class"nav-li"><a class"nav-a" href="url('/comics')">COMICS</a></li>
-                <li class"nav-li"><a class"nav-a" href="">MOVIES</a></li>
-                <li class"nav-li"><a class"nav-a" href="">TV</a></li>
-                <li class"nav-li"><a class"nav-a" href="">GAMES</a></li>
-                <li class"nav-li"><a class"nav-a" href="">COLLECTIBLES</a></li>
-                <li class"nav-li"><a class"nav-a" href="">VIDEOS</a></li>
-                <li class"nav-li"><a class"nav-a" href="">FANS</a></li>
-                <li class"nav-li"><a class"nav-a" href="">NEWS</a></li>
-                <li class"nav-li"><a class"nav-a" href="">SHOP</a></li>
+            <ul>
+                <li>
+                    <a href="url('/')">CHARACTERS</a>
+                </li>
+                <li>
+                    <a href="url('/comics')">COMICS</a>
+                </li>
+                <li><a href="">MOVIES</a></li>
+                <li><a href="">TV</a></li>
+                <li><a href="">GAMES</a></li>
+                <li><a href="">COLLECTIBLES</a></li>
+                <li><a href="">VIDEOS</a></li>
+                <li><a href="">FANS</a></li>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">SHOP</a></li>
             </ul> 
         </div>
     </header>
 
-    <div class="container">
-      <img class="jumbo" src="{{asset('images/jumbotron.jpg')}}" alt="">
+    <div class="container bg-image">
+      
     </div>
 
     <main>
@@ -54,24 +58,24 @@
         </div>
           
         <div class="main-barra">
-            <ul class"ul-barrablu">
-                <li class"li-barrablu">
-                    <img class="icon" src="" alt="">
+            <ul>
+                <li>
+                    <img class="icon" src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
                     <span>DIGITAL COMICS</span>
                 </li>
-                <li class"li-barrablu">
+                <li>
                     <img class="icon" src="{{asset('images/buy-comics-merchandise.png')}}" alt="">
                     <span>DC MERCHANDISE</span>
                 </li>
-                <li class"li-barrablu">
+                <li>
                     <img class="icon" src="{{asset('images/buy-comics-subscriptions.png')}}" alt="">
                     <span>SUBSCRIPTION</span>
                 </li>
-                <li class"li-barrablu">
+                <li>
                     <img class="icon-locator" src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">
                     <span>COMIC SHOP LOCATOR</span>
                 </li>
-                <li class="li-barrablu visa">
+                <li class="visa">
                     <img class="icon-visa" src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">
                     <span>DC POWER VISA</span>
                 </li>
@@ -131,8 +135,8 @@
 
         <div class="col"></div>
     
-        <div class="col mega-logo">
-            <img src="{{asset('images/dc-logo-bg.png')}}" alt="">
+        <div class="col">
+            <img class="mega-logo" src="{{asset('images/dc-logo-bg.png')}}" alt="">
         </div> 
 
         <div class="col"></div>
@@ -143,15 +147,18 @@
        <div class="button-1 flex-li"><h2>SIGN-UP NOW!</h2></div>
        <div class="flex-li font-size">
            <h1 class"followus">FOLLOW US</h1>
-           <ul class"ul-footer-due">
-               <li class"li-footer-due"><img src="{{asset('images/footer-facebook.png"')}} alt=""></li>
-               <li class"li-footer-due"><img src="{{asset('images/footer-twitter.png')}}" alt=""></li>
-               <li class"li-footer-due"><img src="{{asset('images/footer-youtube.png')}}" alt=""></li>
-               <li class"li-footer-due"><img src="{{asset('images/footer-pinterest.png')}}" alt=""></li>
-               <li class"li-footer-due"><img src="{{asset('images/footer-periscope.png')}}" alt=""></li>
-           </ul>
+           <div class="marginicons">
+                <ul>
+                    <li><img src="{{asset('images/footer-facebook.png')}}" alt=""></li>
+                    <li><img src="{{asset('images/footer-twitter.png')}}" alt=""></li>
+                    <li><img src="{{asset('images/footer-youtube.png')}}" alt=""></li>
+                    <li><img src="{{asset('images/footer-pinterest.png')}}" alt=""></li>
+                    <li><img src="{{asset('images/footer-periscope.png')}}" alt=""></li>
+                </ul> 
+           </div>
+           
        </div>
-   </div
+    </div>
         
 </body>
 </html>

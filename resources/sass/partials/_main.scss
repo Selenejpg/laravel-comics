@@ -3,6 +3,7 @@ main {
     background-color: black;
     h1 {
         font-size: 12px;
+        margin-left: 20px;
     }
 }
 
@@ -43,6 +44,8 @@ main {
     color: white;
     background-color: #0282f9;
     padding: 10px;
+    margin-top: -50px;
+    z-index: 1;
 }
 
 .jumbo {

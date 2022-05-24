@@ -4,8 +4,25 @@ header {
     justify-content: space-evenly;
     padding: 20px;
     align-items: center;
+    ul {
+        display: flex;
+        align-items: center;
+    }
+    li {
+        margin-right: 25px;
+    }
+    a {
+        color: black;
+    }
 }
 
 .logo {
     width: 6%;
+}
+
+.bg-image {
+    background: url("/images/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
 }
