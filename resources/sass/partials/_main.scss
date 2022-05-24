@@ -1,0 +1,51 @@
+main {
+    width: 100%;
+    background-color: black;
+    h1 {
+        font-size: 12px;
+    }
+}
+
+.products {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.main-barra {
+    background-color: #0282f9;
+    color: white;
+    padding: 50px;
+}
+
+.button {
+    width: 10%;
+    color: white;
+    background-color: #0282f9;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.margin {
+    margin-left: 185px;
+    padding-top: 30px;
+}
+
+.current {
+    width: 10%;
+    color: white;
+    background-color: #0282f9;
+    padding: 10px;
+}
+
+.jumbo {
+    max-width: 100vw;
+    height: 70vh;
+}

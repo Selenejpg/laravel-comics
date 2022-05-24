@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Rotta per fumetti
+//url aggiunge /comics alla fine
+Route::get('/comics', function () {
+    return view('comics');
+});
